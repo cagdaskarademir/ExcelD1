@@ -50,6 +50,7 @@
             this.linkAsama1.TabIndex = 0;
             this.linkAsama1.TabStop = true;
             this.linkAsama1.Text = "İlgili Makaleyi Açmak İçin Tıklayınız";
+            this.linkAsama1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkAsama1_LinkClicked);
             // 
             // groupBox1
             // 
@@ -123,6 +124,7 @@
             this.btnKaydet.TabIndex = 3;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // linkAsama2
             // 
@@ -134,6 +136,7 @@
             this.linkAsama2.TabIndex = 1;
             this.linkAsama2.TabStop = true;
             this.linkAsama2.Text = "İlgili Makaleyi Açmak İçin Tıklayınız";
+            this.linkAsama2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkAsama2_LinkClicked);
             // 
             // Form1
             // 
